@@ -21,18 +21,22 @@ $ cd src
 $ dotnet build
 ```
 
+# Usage
+
+A swagger page is available at the root of the project.
+
+Endpoints accept basic authentication - the required username and password are specified in the appsettings.json file.
+
+Endpoints return a plain text response by default, though will return JSON if application/json is sent in the accept header.
+
 # Endpoints
 
-api/chineseyear
-
-api/getguid
-
-api/moonphase
-
-api/tamrieldate
-
-api/zodiac
-
+- ChineseYear
+- GetGuid
+- Moonphase
+- Morsecode
+- Tamriel Date
+- Zodic
 
 # Licencing
 
