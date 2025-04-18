@@ -36,7 +36,7 @@ Endpoints return a plain text response by default, though will return JSON if ap
 - Moonphase
 - Morsecode
 - Tamriel Date
-- Zodic
+- Zodiac
 
 # Licencing
 
